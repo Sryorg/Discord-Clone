@@ -17,7 +17,8 @@ const ServerButton: React.FC<Props> = ({
   hasNotification,
   mentions
 }) => {
-  <Button
+  return (
+    <Button
     isHome={isHome}
     hasNotification={hasNotification}
     mentions={mentions}
@@ -25,6 +26,7 @@ const ServerButton: React.FC<Props> = ({
   >
     {isHome && <img src={Logo} alt="Rocketseat" />}
   </Button>
+  )
 };
 
 export default ServerButton;
