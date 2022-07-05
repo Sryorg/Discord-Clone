@@ -26,6 +26,7 @@ export default createGlobalStyle`
   --discord2: #18A558;
   --mention-detail: #f9a839;
   --mention-message: #413f3f;
+  --text: #fffafa;
 
   --link: #5d80d6;
 
