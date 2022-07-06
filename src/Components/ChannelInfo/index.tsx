@@ -2,12 +2,12 @@ import React from 'react';
 
 import { Container, HashtagIcon, Title, Separator, Description } from './styles';
 
-const ChanelInfo: React.FC = () => {
+const ChannelInfo: React.FC = () => {
   return (
     <Container>
       <HashtagIcon />
       
-      <Title> Geral </Title>
+      <Title> geral </Title>
 
       <Separator />
 
@@ -16,4 +16,4 @@ const ChanelInfo: React.FC = () => {
   )
 }
 
-export default ChanelInfo;
+export default ChannelInfo;

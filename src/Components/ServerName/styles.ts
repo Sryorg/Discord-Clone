@@ -13,6 +13,8 @@ export const Container = styled.div`
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 0px 0px;
   z-index: 2;
+
+  cursor: pointer;
 `;
 
 export const Title = styled.h1`
