@@ -18,7 +18,7 @@ const ChannelButton: React.FC<Props> = ({
         <span>{channelName}</span>
       </div>
 
-      <div>
+      <div className='IconsIS'>
         <InviteIcon />
         <SettingsIcon />
       </div>

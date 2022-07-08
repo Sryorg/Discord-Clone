@@ -20,7 +20,7 @@ export const Container = styled.div`
     align-items: center;
   }
 
-  > div svg {
+  .IconsIS {
     display: none;
   }
 
@@ -37,7 +37,7 @@ export const Container = styled.div`
       filter: brightness(2);
     }
 
-    > div svg {
+    .IconsIS {
       display: inline;
     }
   }
